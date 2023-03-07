@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="C:\Users\rohan.h.singh\Desktop\rohan\Learn\my_app\mySpotify\loginForm.css">
+       
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href ="">
+                Valid Me!!
+                </a>
+            </div>
+        </nav>
+             
+            <div id = "div11" class="container bg-secondary">
+
+                <form action="" name = "myForm" onsubmit = "return formValidate()" method= "post">
+                    
+                     <div id = "" class="container formbox1"></div>
+
+                            <div class="mb-3" id = "name">
+                                <label for="Name" class="form-label">Name</label>
+
+                                <input 
+                                type="text" 
+                                name = "fname"
+                                class="form-control"
+                                autocomplete="off"
+                                required
+                                >    
+                                
+                                <span id="Name" class="FormError text-danger font-weight-regular"> </span> 
+                            </div>
+                       
+                            <div class="mb-3" id = "email">
+                                <label for="EmailID" class="form-label">Email</label>
+
+                                <input 
+                                type="email" 
+                                name = "femail"
+                                class="form-control"  
+                                autocomplete="off"
+                                required
+                                >
+
+                                <span id="Email" class="FormError text-danger font-weight-regular"> </span>     
+                            </div>
+    
+                            <div class="mb-3" id = "password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                                <label for="EmailIDPassword" class="form-label">Password</label>
+                                <input 
+                                type="password"
+                                name = "femailpassword"
+                                class="form-control"
+                                autocomplete="off"
+                                required
+                                >
+
+                                <span id="Password" class="FormError text-danger font-weight-regular"> </span>  
+
+                            </div>
+
+                             <div class="mb-3" id = "confirmpassword">
+                                <label for="ConfirmEmailIDPassword" class="form-label">Confirm Password</label>
+                                <input 
+                                type="password"
+                                name = "femailconfirmpassword"
+                                class="form-control" 
+                                autocomplete="off"
+                                required
+                                >
+
+                                <span id="confrimPassword" class="FormError text-danger font-weight-regular"> </span>  
+
+                             </div>
+
+                            <div class="mb-3"  id = "age">
+                                <label for="Age" class="form-label">Age</label>
+                                <input 
+                                type="number" 
+                                name = "userAge"
+                                class="form-control" 
+                                autocomplete="off"
+                                required
+                                >    
+                            
+                            
+                                <span id="Age" class=" FormError text-danger font-weight-regular"> </span> 
+                            </div>
+
+                            <input  class = "" type = "submit" value="Submit">     
+                    
+                                <!--<button id  = "button11" class="btn btn-primary border" type="submit" value="Submit">submit</button>-->
+                        </div>
+
+                    </form>
+            </div>
+        
+    <body>
+
+
+        <script src="C:\Users\rohan.h.singh\Desktop\rohan\Learn\my_app\mySpotify\loginForm.js"> </script>
+</html>
